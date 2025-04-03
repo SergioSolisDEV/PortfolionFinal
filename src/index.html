@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth font-sans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="output.css">
+    <title>Portfolio</title>
+</head>
+<body class="w1">
+    <section class=" bg-zinc-900">
+        <div class="mx-60">
+            <header class="bg-zinc-900 fixed top-0 right-0 left-0 pt-2 pb-2 z-30">
+                <div class="flex text-gray-300 mx-60">
+                    <div class="flex justify-center">
+                        <img src="/src/assets/Foto CV.jpg" class="rounded-full w-16 h-16 object-cover" alt="Foto CV">
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h4 class="inline-block ps-2 ">Sergio David Solís Rojas</h4>
+                        <p class="inline-block ps-2">Game & Web Developer</p>
+                    </div>
+        
+                    <nav class="flex items-center ml-auto gap-10">
+                        <ul >
+                            <li class="hover:text-red-50"><a href="#inicio">Inicio</a></li>
+                        </ul>
+                        <ul>
+                            <li class="hover:text-red-50"><a href="#proyectos">Proyectos</a></li>
+                        </ul>
+                        <ul>
+                            <li class="hover:text-red-50"><a href="#tecnologias">Tecnologías</a></li>
+                        </ul>
+                        <ul>
+                            <li class="hover:text-red-50"><a href="#sobremi">Sobre mi</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <h2 id="inicio"></h2>
+            <div" class="flex flex-col mt-16">
+                <div class="flex flex-col">
+                    <h1 class="flex justify-center text-6xl pt-30 text-amber-300">Sergio David Solís Rojas</h1>
+                    <h2 class="flex justify-center text-5xl pt-5 text-gray-300">Game & Web Developer</h2>
+                </div>
+                <div class="flex justify-center gap-10">
+                    <div class="flex justify-center mt-10">
+                        <a href="/src/assets/CV.pdf" download class="bg-blue-600 pt-3 pb-3 px-4 rounded-2xl text-gray-200 hover:cursor-pointer hover:text-red-50">Descargar CV</a>
+                    </div>
+                    <div class="flex justify-center mt-10 gap-2 bg-gray-50 pt-3 pb-3 px-7 rounded-2xl text-blue-600">
+                        <input class="w-50 focus:border-0" readonly type="text" id="myMail" value="sergiosolis1555@gmail.com">
+                        <!-- <p id="myMail" value="sergiosolis1555@gmail.com">sergiosolis1555@gmail.com</p> -->
+                        <button onclick="copyToClipboard()" class="btn hover:cursor-pointer"><img src="/src/assets/svgs/copy-svgrepo-com.svg" width="20" alt=""></button>
+                    </div>
+                </div>
+                <div class="flex flex-col mt-10">
+                    <div id="proyectos" class="flex justify-center gap-5 mb-10">
+                        <img src="/src/assets/svgs/unity-svgrepo-com (1).svg" width="40" alt="">
+                        <img src="/src/assets/svgs/blender-svgrepo-com.svg" width="40" alt="">
+                        <img src="/src/assets/svgs/photoshop-svgrepo-com.svg" width="40" alt="">
+                        <img src="/src/assets/svgs/Logo_C_sharp.svg.png" width="35" alt="">
+                        <img src="/src/assets/svgs/html-5-svgrepo-com.svg" width="40" alt="">
+                        <img src="/src/assets/svgs/css-3-svgrepo-com.svg" width="40" alt="">
+                        <img src="/src/assets/svgs/js-svgrepo-com.svg" width="40" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-zinc-950 px-60 pt-14 pb-20">
+        <h1 class="text-blue-400 text-3xl mb-5 font-semibold">PROYECTOS</h1>
+        <section class="flex justify-between">
+            <!-- From Uiverse.io by andrew-demchenk0 --> 
+             <!-- TFG -->
+            <div class="card">
+                <img class="card__img" src="/src/assets/imgs/TfgIMG.png" alt="">
+                <div class="card__descr-wrapper">
+                    <p class="card__title">
+                        Tank Battle
+                    </p>
+                    <p class="card__descr">
+                        Defiendete de los enemigos <br>
+                        y sobrevive oleadas.
+
+                    </p>
+                    <div class="card__links">
+                    <div class="flex justify-center">
+                        <a href="https://sergiosolis567.itch.io/tank-battle" target="_blank">
+                            <svg class="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 12C3 4.5885 4.5885 3 12 3C19.4115 3 21 4.5885 21 12C21 19.4115 19.4115 21 12 21C4.5885 21 3 19.4115 3 12Z" stroke="#000000" stroke-width="2"></path> <path d="M10.9 8.8L10.6577 8.66152C10.1418 8.36676 9.5 8.73922 9.5 9.33333L9.5 14.6667C9.5 15.2608 10.1418 15.6332 10.6577 15.3385L10.9 15.2L15.1 12.8C15.719 12.4463 15.719 11.5537 15.1 11.2L10.9 8.8Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- SUIKA GAME -->
+            <div class="card">
+                <img class="card__img" src="/src/assets/imgs/suikaIMG.png" alt="">
+                <div class="card__descr-wrapper">
+                    <p class="card__title">
+                        Suika Game Recreation
+                    </p>
+                    <p class="card__descr">
+                        Recreación del famoso juego <br>
+                        Suika Game.
+
+                    </p>
+                    <div class="card__links">
+                    <div class="flex justify-center">
+                        <a href="https://sergiosolis567.itch.io/suika-game-recreation" target="_blank">
+                            <svg class="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 12C3 4.5885 4.5885 3 12 3C19.4115 3 21 4.5885 21 12C21 19.4115 19.4115 21 12 21C4.5885 21 3 19.4115 3 12Z" stroke="#000000" stroke-width="2"></path> <path d="M10.9 8.8L10.6577 8.66152C10.1418 8.36676 9.5 8.73922 9.5 9.33333L9.5 14.6667C9.5 15.2608 10.1418 15.6332 10.6577 15.3385L10.9 15.2L15.1 12.8C15.719 12.4463 15.719 11.5537 15.1 11.2L10.9 8.8Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- CAR PARKING -->
+            <div class="card">
+                <img class="card__img" src="/src/assets/imgs/CarParkingIMG.png" alt="">
+                <div class="card__descr-wrapper">
+                    <p class="card__title">
+                        Car Parking
+                    </p>
+                    <p class="card__descr">
+                        Pequeño juego por niveles
+                        sobre aparcar un coche.<br>
+                    </p>
+                    <div class="card__links">
+                    <div class="flex justify-center">
+                        <a href="https://sergiosolis567.itch.io/car-parking" target="_blank">
+                            <svg class="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 12C3 4.5885 4.5885 3 12 3C19.4115 3 21 4.5885 21 12C21 19.4115 19.4115 21 12 21C4.5885 21 3 19.4115 3 12Z" stroke="#000000" stroke-width="2"></path> <path d="M10.9 8.8L10.6577 8.66152C10.1418 8.36676 9.5 8.73922 9.5 9.33333L9.5 14.6667C9.5 15.2608 10.1418 15.6332 10.6577 15.3385L10.9 15.2L15.1 12.8C15.719 12.4463 15.719 11.5537 15.1 11.2L10.9 8.8Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- CLICKER -->
+            <div class="card">
+                <img class="card__img" src="/src/assets/imgs/clickerIMG.png" alt="">
+                <div class="card__descr-wrapper">
+                    <p class="card__title">
+                        Fruit Clicker
+                    </p>
+                    <p class="card__descr">
+                        Juego idle clicker sobre <br>
+                        frutas<br>
+                    </p>
+                    <div class="card__links">
+                    <div id="tecnologias" class="flex justify-center">
+                        <a href="https://sergiosolis567.itch.io/fruit-clicker" target="_blank">
+                            <svg class="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 12C3 4.5885 4.5885 3 12 3C19.4115 3 21 4.5885 21 12C21 19.4115 19.4115 21 12 21C4.5885 21 3 19.4115 3 12Z" stroke="#000000" stroke-width="2"></path> <path d="M10.9 8.8L10.6577 8.66152C10.1418 8.36676 9.5 8.73922 9.5 9.33333L9.5 14.6667C9.5 15.2608 10.1418 15.6332 10.6577 15.3385L10.9 15.2L15.1 12.8C15.719 12.4463 15.719 11.5537 15.1 11.2L10.9 8.8Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="bg-zinc-950 px-60 pt-14 pb-20">
+        <h1 class="text-blue-400 text-3xl mb-5 font-semibold">TECNOLOGÍAS</h1>
+        <section class="flex flex-col">
+            <div class="flex flex-row  justify-between pb-[50px]">
+                <div class="flex items-center justify-center w-[350px] h-24 rounded-2xl bg-zinc-900">
+                    <h2 class="text-white opacity-60 text-2xl">Unity</h2>
+                </div>
+                <div class="flex items-center justify-center w-[350px] h-24 rounded-2xl bg-zinc-900">
+                    <h2 class="text-white opacity-60 text-2xl">Blender</h2>
+                </div>
+                <div class="flex items-center justify-center w-[350px] h-24 rounded-2xl bg-zinc-900">
+                    <h2 class="text-white opacity-60 text-2xl">PhotoShop</h2>
+                </div>
+                <div class="flex items-center justify-center w-[350px] h-24 rounded-2xl bg-zinc-900">
+                    <h2 class="text-white opacity-60 text-2xl">SubstancePainter</h2>
+                </div>
+            </div>
+            <div class="flex flex-row  justify-between">
+                <div class="flex items-center justify-center w-[350px] h-24 rounded-2xl bg-zinc-900">
+                    <h2 class="text-white opacity-60 text-2xl">C#</h2>
+                </div>
+                <div class="flex items-center justify-center w-[350px] h-24 rounded-2xl bg-zinc-900">
+                    <h2 class="text-white opacity-60 text-2xl">HTML</h2>
+                </div>
+                <div class="flex items-center justify-center w-[350px] h-24 rounded-2xl bg-zinc-900">
+                    <h2 class="text-white opacity-60 text-2xl">CSS</h2>
+                </div>
+                <div class="flex items-center justify-center w-[350px] h-24 rounded-2xl bg-zinc-900">
+                    <h2 class="text-white opacity-60 text-2xl">JavaScript</h2>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="bg-zinc-950 px-60 pt-14 pb-40">
+        <h1 id="sobremi"  class="text-blue-400 text-3xl mb-5 font-semibold">SOBRE MÍ</h1>
+        <section class="flex justify-between">
+            <div>
+                <p class="text-2xl text-white opacity-60">¡Hola! Soy Sergio, un programador junior apasionado por los videojuegos y la programación. <br>
+                    Desde pequeño siempre he estado interesado en como se desarrollan los videojuegos, este interés <br>
+                    me ha llevado a aprender a programar y desarrollar videojuegos.
+                    <br>
+                    <br>
+                    Me gusta enfrentarme a nuevos desafíos y aprender cosas nuevas cada día ya sea aprendiendo <br>
+                    una nueva tecnología, en un proyecto personal o trabajando con otros desarrolladores. <br>
+
+                    Mi objetivo es seguir desarrollandome en el campo de la programación <br> y los videojuegos y contribuir
+                    a esta fantástica industria.
+                </p>
+            </div>
+        </section>
+    </section>
+
+    <footer class="flex justify-center items-center bg-zinc-950 p-10">
+        <h1 class="flex items-center align-top text-white opacity-50 text-center">Desarollado por Sergio David Solís Rojas</h1>
+    </footer>
+
+    <script>
+        function copyToClipboard() {
+            var copyText = document.getElementById("myMail");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); 
+            navigator.clipboard.writeText(copyText.value);
+            alert("Email copiado al portapapeles: " + copyText.value);
+        }
+  
+    </script>
+</body>
+
+
+
+</html>
