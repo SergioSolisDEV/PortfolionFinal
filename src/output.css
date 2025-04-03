@@ -1464,6 +1464,9 @@
   .object-top {
     object-position: top;
   }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
@@ -2143,6 +2146,9 @@
   .outline-solid {
     --tw-outline-style: solid;
     outline-style: solid;
+  }
+  .\[vite\:html\] {
+    vite: html;
   }
   .backface-hidden {
     backface-visibility: hidden;
